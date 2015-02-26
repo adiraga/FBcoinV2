@@ -1,0 +1,47 @@
+src/*.exe
+src/fbcoin
+src/fbcoind
+src/test_fbcoin
+src/tags
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.fbcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+fbcoin-qt
+FBcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+fbcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+
+.qmake.stash
+Info.plist
+FBcoin-Qt.xcodeproj
+dist/
+*.dmg
+
+# Output of contrib/check-upstream.sh
+merge-*.txt
+
+*.sublime-project
+*.sublime-workspace
